@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:id="@+id/drawerView"
+    android:background="#5559b4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#5559b4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_msg"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/user"
+            android:id="@+id/genter_icon"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="45dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/login_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_msg_name"
+            android:textSize="26dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="94dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/log_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_date"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="130dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#80ffffff"
+            android:layout_marginTop="270dp">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_show_chart_24"
+            android:layout_marginTop="298dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_movie_chart"
+            android:textColor="#ffffff"
+            android:id="@+id/nav_ex"
+            android:layout_marginTop="298dp"
+            android:layout_marginLeft="44dp"
+            android:onClick="OnClick">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#80ffffff"
+            android:layout_marginTop="340dp">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_supervised_user_circle_24"
+            android:layout_marginTop="368dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_user_data"
+            android:textColor="#ffffff"
+            android:id="@+id/nav_info"
+            android:layout_marginTop="368dp"
+            android:layout_marginLeft="44dp"
+            android:onClick="OnClick">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#80ffffff"
+            android:layout_marginTop="410dp">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_settings"
+            android:layout_marginTop="438dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:textColor="#ffffff"
+            android:id="@+id/nav_help"
+            android:layout_marginTop="438dp"
+            android:layout_marginLeft="44dp"
+            android:onClick="OnClick">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#80ffffff"
+            android:layout_marginTop="480dp">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_logout"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:id="@+id/btn_logout"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="OnClick">
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

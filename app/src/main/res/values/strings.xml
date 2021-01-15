@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">코끼리</string>
+    <string name="et_id">아이디를 입력하세요.</string>
+    <string name="et_pw">비밀번호를 입력하세요.</string>
+    <string name="msg_login_error">아이디나 비밀번호를 확인하세요.</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_logout">로그아웃</string>
+    <string name="hello_msg">반갑습니다</string>
+    <string name="hello_msg_name">%s 님</string>
+    <string name="login_date">로그인 일시 : %s</string>
+    <string name="daily_movie_chart">박스오피스 순위</string>
+    <string name="edit_user_data">회원정보 수정</string>
+    <string name="setting">환경설정</string>
+    <string name="open">열기</string>
+    <string name="closed">닫기</string>
+    <string name="api_key">4515c456fda8c99779c6e213d9199eb6</string>
+</resources>
